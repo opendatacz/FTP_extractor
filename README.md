@@ -1,4 +1,4 @@
 FTP extractor DPU for ODCleanStore
 ==================================
 
-Recursively receiving files via FTP
+Receiving files via FTP. Recursively directory listing.
