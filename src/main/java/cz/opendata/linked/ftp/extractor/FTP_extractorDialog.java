@@ -150,7 +150,7 @@ public class FTP_extractorDialog extends BaseConfigDialog<FTP_extractorConfig> {
 	    input_useOnlyCache = new CheckBox();
 	    input_useOnlyCache.setCaption("Process only cached files");
 	    input_useOnlyCache.setWidth("100%");
-	    input_useOnlyCache.setDescription("New files won´t be downloaded.");
+	    input_useOnlyCache.setDescription("New files aren´t going to be downloaded.");
 	    mainLayout.addComponent(input_useOnlyCache);
 
         return mainLayout;
