@@ -101,8 +101,8 @@ public class FTP_extractorDialog extends BaseConfigDialog<FTP_extractorConfig> {
 
 	    // text field for user
 	    input_user = new TextField();
-	    input_user.setNullRepresentation("User");
-	    input_user.setCaption("");
+	    input_user.setNullRepresentation("");
+	    input_user.setCaption("User");
 	    input_user.setImmediate(true);
 	    input_user.setWidth("100%");
 	    input_user.setHeight("-1px");
@@ -110,8 +110,8 @@ public class FTP_extractorDialog extends BaseConfigDialog<FTP_extractorConfig> {
 
 	    // text field for password
 	    input_pass = new PasswordField();
-	    input_pass.setNullRepresentation("Password");
-	    input_pass.setCaption("");
+	    input_pass.setNullRepresentation("");
+	    input_pass.setCaption("Password");
 	    input_pass.setImmediate(true);
 	    input_pass.setWidth("100%");
 	    input_pass.setHeight("-1px");

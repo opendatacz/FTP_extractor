@@ -11,7 +11,7 @@
     <packaging>bundle</packaging>
     <version>0.0.1</version>
 	<description>
-		Recursively receiving files via FTP. Received files shouldn´t have the same name, because FileDataUnit overwrite them.
+		Receiving files via FTP. Received files shouldn´t have the same name, because FileDataUnit overwrite them.
 	</description>
 
     <properties>

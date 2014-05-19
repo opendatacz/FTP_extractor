@@ -4,7 +4,7 @@
     <facet type="Osmorc" name="OSGi">
       <configuration manifestGenerationMode="OsmorcControlled" manifestLocation="" jarfileLocation="FTP_extractor-0.0.1.jar" outputPathType="CompilerOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="cz.cuni.mff.xrg.odcs.FTP_extractor" bundleVersion="0.0.1" ignoreFilePattern="" useProjectDefaultManifestFileLocation="true" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
         <additionalProperties>
-          <property key="Bundle-Description" value="Recursively receiving files via FTP. Received files shouldn´t have the same name, because FileDataUnit overwrite them." />
+          <property key="Bundle-Description" value="Receiving files via FTP. Received files shouldn´t have the same name, because FileDataUnit overwrite them." />
           <property key="Bundle-Name" value="FTP_extractor" />
           <property key="Export-Package" value="cz.opendata.linked.ftp.extractor;version=&quot;0.0.1&quot;" />
           <property key="Import-Package" value="cz.cuni.mff.xrg.odcs.*;version=&quot;1.0.0&quot;,com.vaadin.*;version=&quot;[7.1.8, 8.0.0)&quot;,*" />
